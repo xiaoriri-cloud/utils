@@ -1,0 +1,18 @@
+{
+    "name": "xiaoriri/utils",
+    "description": "utils",
+    "type": "libary",
+    "authors": [{
+        "name": "xiaoriri",
+        "email": "caoxuri2019@163.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "xiaoriri\\utils\\": "src/utils"
+        },
+        "files": [
+
+        ]
+    }
+}
