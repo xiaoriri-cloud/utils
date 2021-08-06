@@ -2,11 +2,21 @@
     "name": "xiaoriri/utils",
     "description": "utils",
     "type": "libary",
+    "keywords": [
+        "utils",
+        "helpers"
+    ],
     "authors": [{
         "name": "xiaoriri",
         "email": "caoxuri2019@163.com"
     }],
-    "require": {},
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=7.0"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
     "autoload": {
         "psr-4": {
             "xiaoriri\\utils\\": "src/utils"
