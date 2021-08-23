@@ -383,7 +383,7 @@ class StringUtil
 
     /**
      * 判断字符串是utf-8 还是gb2312
-     * @param unknown $str
+     * @param string $str
      * @param string $default
      * @return string
      */
@@ -419,9 +419,9 @@ class StringUtil
 
     /**
      * utf-8和gb2312自动转化
-     * @param unknown $string
+     * @param string $string
      * @param string $outEncoding
-     * @return unknown|string
+     * @return string
      */
     public static function safeEncoding($string, $outEncoding = 'UTF-8')
     {
